@@ -1,0 +1,153 @@
+/* start navigation */
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+}
+.navbar-brand{
+    padding-left: 90px;
+}
+
+.main-menu .nav-item .nav-link{
+     text-transform: uppercase;
+     font-weight: 500;
+     padding: 1rem;
+     color: white;
+ }
+ .main-menu .nav-item .nav-link:hover{
+     color: black;
+ }
+ 
+ .hero{
+     background-image: url(dark.jpg);
+     height: 100vh;
+     width: 100%;
+     border-radius: 0%;
+     background-size: cover;
+     background-position: center;
+ }
+ #main-text{
+     position: relative;
+     top: 190px;
+ }
+ #resume{
+     width: 25%;
+     margin-top: 30px;
+ }
+
+/* skills */
+
+.row #vertical{
+    height: 500px;
+    width: 1px;
+    color: blue;
+}
+
+.skill-heading{
+    text-align: center;
+    color: #5bc0de;
+    font-weight: bold;
+}
+.skill-heading:hover{
+    text-decoration: underline;
+    color: #0495c9;
+}
+.skills{
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 8px;
+    margin: 0px 8px;
+}
+.card{
+    border: 1px solid #5bc0de;
+    margin: 10px;
+}
+.card:hover{
+    border: 1px solid #0495c9;
+}
+
+.hello{ 
+    border: 2px solid  #5bc0de;
+    padding: 6px;
+    display: inline-block;
+    border-radius: 8px;
+    margin: 15px;
+}
+.hello:hover{
+    border: 2px solid #0495c9;
+}
+.skill-btn{
+    margin: 5px;
+
+}
+
+
+/* about */
+.about{
+    margin: 50px;
+}
+
+#resume{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.about-img{
+    padding: 30px;
+}
+
+/* projects */
+
+
+.card-link{
+    text-align: center;
+    padding: 20px 0px;
+    margin: 20px;
+}
+.project-img{
+    padding: 10px 0;
+}
+
+/* conact */
+
+
+.contact-items{
+    margin: 0 65px;
+
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+}
+.contact-img{
+   margin: auto;
+}
+
+.card-body{
+    margin: 0px auto;
+    display: inline-block;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    background-color: #5bc0de;
+    width: 100%;
+   margin-top: 40px;
+    
+}
+
+.footer-items{
+    margin: auto;
+    padding: 10px;
+    top: 10px;
+
+}

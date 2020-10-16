@@ -7,7 +7,7 @@
 html{
     scroll-behavior: smooth;
 }
-}
+
 .navbar-brand{
     padding-left: 90px;
 }
@@ -87,7 +87,8 @@ html{
 
 /* about */
 .about{
-    margin: 50px;
+    margin: 120px 0px;
+   
 }
 
 #resume{
@@ -134,6 +135,11 @@ html{
     margin: 0px auto;
     display: inline-block;
     text-align: center;
+}
+.project-img{
+    border: 2px solid #5bc0de;
+    border-radius: 5px;
+    padding: 3px;
 }
 
 /* footer */
